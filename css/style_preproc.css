@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+header {
+  background: #FFF;
+  padding: 18px 0px; }
+  header .container {
+    max-width: 940px;
+    margin: auto;
+    display: flex;
+    align-items: center; }
+  header #toggle {
+    opacity: 0; }
+  header img {
+    margin-right: 18px; }
+  header h3 {
+    margin-right: 461px; }
+  header ul {
+    display: flex;
+    list-style: none; }
+  header li {
+    color: #404040;
+    font-size: 12px;
+    font-family: Montserrat;
+    line-height: 20px;
+    text-transform: uppercase; }
+    header li:nth-of-type(2) {
+      margin-right: 34px;
+      margin-left: 34px; }
+    header li:nth-of-type(3) {
+      margin-right: 34px; }
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  max-width: 940px; }
+
+.making_brands {
+  background-image: url("../images/sea.jpg");
+  background-size: cover;
+  min-height: 391px; }
+  .making_brands h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 44px;
+    font-family: Montserrat;
+    line-height: 55px;
+    text-transform: uppercase;
+    max-width: 672px;
+    margin-bottom: 28px;
+    padding-top: 105px; }
+  .making_brands img {
+    width: 80px;
+    height: 2px;
+    margin-bottom: 25px; }
+  .making_brands p {
+    color: rgba(255, 255, 255, 0.81);
+    text-align: center;
+    font-size: 15px;
+    font-family: Vollkorn;
+    line-height: 20px; }
+
+.minimalist {
+  background-color: #FEFEC9; }
+  .minimalist .container {
+    padding-top: 60px;
+    padding-bottom: 61px; }
+  .minimalist p {
+    color: #47474F;
+    text-align: center;
+    font-size: 18px;
+    font-family: Vollkorn;
+    line-height: 25px;
+    margin-bottom: 40px; }
+  .minimalist a {
+    color: #47474F;
+    text-align: center;
+    font-size: 16px;
+    font-family: Vollkorn;
+    line-height: 20px;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    background: #FEFEC9;
+    padding: 13px 34px 20px;
+    border: solid #47474F 1px;
+    display: inline-flex; }
