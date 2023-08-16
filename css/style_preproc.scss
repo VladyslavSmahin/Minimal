@@ -38,6 +38,10 @@ header {
     line-height: 20px;
     text-transform: uppercase;
 
+    a {
+      text-decoration: none;
+    }
+
     &:nth-of-type(2) {
       margin-right: 34px;
       margin-left: 34px;
@@ -250,11 +254,12 @@ main {
     justify-content: space-between;
 
     article {
-      a{
+      a {
         margin-right: 20px;
       }
+
       a {
-        &:last-of-type{
+        &:last-of-type {
           margin-right: 0px;
         }
       }
@@ -356,6 +361,7 @@ main {
 .last {
   background-image: url("/images/image_19.jpg");
   padding: 80px 0px 75px;
+
 
   h3 {
     text-align: center;
@@ -536,5 +542,23 @@ footer {
 
   label {
     display: block;
+  }
+
+  .logo_2 {
+    text-align: center;
+
+    img {
+      margin: 40px 0px 15px;
+    }
+
+    p {
+      color: rgba(255, 255, 255, 0.40);
+      text-align: center;
+      font-family: Vollkorn;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px; /* 146.667% */
+    }
   }
 }
