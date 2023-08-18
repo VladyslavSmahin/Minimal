@@ -314,15 +314,15 @@ main .container {
       padding-left: 20px; }
       .last .last_container .links .facebook:before {
         display: inline-block;
-        content: url("/images/image_24.svg");
+        content: url("../images/image_24.svg");
         margin-right: 10px; }
       .last .last_container .links .twitter:before {
         display: inline-block;
-        content: url("/images/image_25.svg");
+        content: url("../images/image_25.svg");
         margin-right: 10px; }
       .last .last_container .links .linkedin:before {
         display: inline-block;
-        content: url("/images/image_26.svg");
+        content: url("../images/image_26.svg");
         margin-right: 10px; }
 
 .rectangle {

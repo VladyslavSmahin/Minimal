@@ -308,5 +308,10 @@ $color-four: rgba(41, 128, 217, 0.9);
         }
       }
     }
+    footer{
+      .form{
+        max-width: 400px;
+      }
+    }
   }
 }

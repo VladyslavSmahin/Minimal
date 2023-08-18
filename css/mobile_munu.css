@@ -188,4 +188,6 @@
           order: 1; }
         main .last .last_container article .links {
           order: 3;
-          margin: auto; } }
+          margin: auto; }
+  main footer .form {
+    max-width: 400px; } }
